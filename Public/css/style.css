@@ -1,0 +1,13 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.menubar ul li a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menubar ul li a:hover,
+.menubar ul li a:focus {
+  color: #19345e;
+}

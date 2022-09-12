@@ -2,6 +2,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+body {
+  height: 100%;
+}
+
 .menubar ul li a {
   font-size: 16px;
   font-weight: 500;
@@ -10,4 +14,128 @@ html {
 .menubar ul li a:hover,
 .menubar ul li a:focus {
   color: #19345e;
+}
+
+header {
+  width: 100%;
+  height: 840px;
+}
+
+#hero-text {
+  width: 50%;
+}
+
+#hero-img {
+  width: 50%;
+}
+
+#hero-text h1 {
+  width: 100%;
+  line-height: 72px;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1.16px;
+  color: #19345e;
+}
+
+#hero-text p {
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+#hero-text .button-hero {
+  display: flex;
+  width: 80%;
+}
+
+#hero-text span button {
+  width: 200px;
+  height: 56px;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #19345e;
+  border: none;
+  border-radius: 1px;
+}
+
+#hero-text span button:hover {
+  background-color: white;
+  outline: 2px solid #19345e;
+  color: #19345e;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#hero-text .button-hero p {
+  width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.features {
+  height: 650px;
+}
+
+.benefit-list .icon img {
+  padding: 11px;
+  background-color: #e7ebfc;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.benefit-list .text .subtitle {
+  color: #19345e;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.benefit-list .text .desc {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.headline h2 {
+  color: #19345e;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: -0.94;
+}
+
+.headline p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.headline button {
+  color: white;
+  background-color: #19345e;
+  width: 213px;
+  height: 56px;
+  padding: 15px 25px;
+  border: none;
+}
+
+.headline button:hover {
+  background-color: white;
+  outline: 2px solid #19345e;
+  color: #19345e;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.benefits {
+  height: 600px;
 }

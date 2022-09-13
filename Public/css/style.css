@@ -29,7 +29,7 @@ header {
   width: 50%;
 }
 
-#hero-text h1 {
+h1 {
   width: 100%;
   line-height: 72px;
   font-size: 56px;
@@ -105,7 +105,7 @@ header {
   letter-spacing: -0.29px;
 }
 
-.headline h2 {
+h2 {
   color: #19345e;
   font-size: 50px;
   font-weight: 700;
@@ -138,4 +138,148 @@ header {
 
 .benefits {
   height: 600px;
+}
+
+.subtitle {
+  color: #19345e;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.benefits .icon img {
+  padding: 20px;
+  background-color: #e7ebfc;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+#card {
+  height: 930px;
+}
+
+.card-bg {
+  height: 700px;
+  background-color: #e7ebfc;
+  border-radius: 3px;
+}
+
+.text-card h3 {
+  color: #19345e;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+}
+
+.text-card p {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+}
+
+.text-card a {
+  color: #19345e;
+}
+
+.text-card a:hover {
+  color: #1a3bc3;
+}
+
+.process {
+  height: 390px;
+}
+
+.process .circle {
+  width: 24px;
+  height: 24px;
+  background-color: #19345e;
+}
+
+.line {
+  width: 180px;
+  border: 2px dashed #19345e;
+  opacity: 40%;
+}
+
+.title h3 {
+  color: #19345e;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.076px;
+}
+
+.cta-bg {
+  height: 660px;
+  background-color: #e7ebfc;
+}
+
+.cta {
+  width: 100%;
+}
+
+.cta h2 {
+  width: 75%;
+}
+
+.cta .desc {
+  width: 65%;
+  font-size: 18px;
+}
+
+.cta button {
+  width: 200px;
+  height: 56px;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #19345e;
+  border: none;
+  border-radius: 1px;
+}
+
+.cta button:hover {
+  background-color: white;
+  outline: 2px solid #19345e;
+  color: #19345e;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cta span {
+  width: 100%;
+  height: 2px;
+  background-color: #b4b4b4;
+}
+
+footer {
+  height: 408px;
+  background-color: #19345e;
+}
+
+.content a {
+  color: white;
+}
+
+.content a:hover {
+  color: orange;
+}
+
+footer span {
+  width: 100%;
+  height: 2px;
+  background-color: #b4b4b4;
+  opacity: 0.08;
 }

@@ -1,0 +1,101 @@
+header {
+  height: 800px;
+  background-color: #e7ebfc;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -1.16px;
+}
+
+header button {
+  width: 262px;
+  height: 56px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #19345e;
+}
+
+header button:hover {
+  color: #19345e;
+  background-color: white;
+  outline: 3px solid #19345e;
+}
+
+.achieve {
+  height: 376px;
+  background-color: #19345e;
+  color: white;
+}
+
+.heroes {
+  height: 700px;
+}
+
+.img-heroes {
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(25, 52, 94, 0.6),
+      rgba(25, 52, 94, 0.6)
+    ),
+    url(/Assets/stock_photo.jpg);
+
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.icon-play {
+  background-color: #e7ebfc;
+  border: 2px solid #19345e;
+  box-sizing: content-box;
+}
+
+.heroes a {
+  color: #19345e;
+}
+
+.heroes a:hover {
+  color: #1a3bc3;
+}
+
+.icon-play:hover {
+  box-shadow: 0 0 10px rgba(25, 52, 94, 0.6);
+}
+
+.features {
+  height: 900px;
+}
+
+.features .subtitle {
+  color: #19345e;
+}
+
+.leader {
+  height: 935px;
+  color: #19345e;
+}
+
+.arrow {
+  padding: 12px;
+  background-color: #e7ebfc;
+  box-sizing: content-box;
+}
+
+.arrow:hover {
+  box-shadow: 0 0 10px rgba(25, 52, 94, 0.6);
+}
+
+.desc {
+  color: black;
+}
+
+.flow {
+  height: 502px;
+  color: #19345e;
+}

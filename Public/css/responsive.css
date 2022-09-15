@@ -1,0 +1,298 @@
+@media screen and (max-width: 766px) {
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  header {
+    width: 100%;
+    max-height: 800px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero-text {
+    width: 90%;
+    gap: 16px;
+  }
+
+  #hero-text p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #hero-img {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  #hero-img img {
+    max-width: 320px;
+  }
+
+  #hero-text .button-hero button,
+  #hero-text .button-hero p {
+    width: 50%;
+    font-size: 12px;
+  }
+
+  #hero-text .brand-sponsor {
+    margin-top: 14px;
+    justify-content: center;
+  }
+
+  #hero-text .brand-sponsor img {
+    width: 5rem;
+  }
+
+  .features {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features-field {
+    flex-direction: column;
+    justify-content: center;
+    gap: 42px;
+  }
+
+  .features .benefit-list {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .features .benefit-list .first,
+  .features .benefit-list .second,
+  .features .benefit-list .third {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .benefit-list .text .subtitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .benefit-list .text .desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headline h2 {
+    width: 90%;
+  }
+
+  .headline p {
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .benefits {
+    height: 100%;
+    width: 90%;
+    /* margin: 100px 0px; */
+  }
+
+  .benefits h2 {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .list-benefits {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-benefits div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-benefits div p {
+    width: 100%;
+  }
+
+  #card {
+    /* margin: 100px 0; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #card .card-bg {
+    width: 90%;
+    padding: 30px 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #card .card-bg .text-card {
+    gap: 10px;
+    width: 80%;
+    align-items: center;
+  }
+
+  #card .card-bg .text-card p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #card .card-bg .text-card span {
+    gap: 10px;
+    align-items: center;
+  }
+
+  #card .img-card img {
+    width: 290px;
+  }
+
+  .process {
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 20px;
+  }
+
+  .process .title h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .process-flow {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .process .ideate,
+  .process .design,
+  .process .develop,
+  .process .deploy {
+    width: 60%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .process .ideate p,
+  .process .design p,
+  .process .develop p,
+  .process .deploy p {
+    width: 90%;
+    margin: 0 0;
+  }
+
+  .accents {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .line {
+    width: 0;
+    height: 50px;
+  }
+
+  .cta {
+    gap: 10px;
+  }
+
+  .cta h2,
+  .cta p {
+    width: 90%;
+  }
+
+  .cta button {
+    width: 180px;
+    height: 50px;
+    padding: 0;
+  }
+
+  .cta .brand-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+
+  .cta span {
+    margin: 20px 0;
+  }
+
+  .cta .brand-sponsor img {
+    width: 5rem;
+  }
+
+  footer .left-content {
+    gap: 6px;
+  }
+
+  footer .left-content p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  footer .left-content a {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  footer .right-content {
+    height: 100%;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  footer .right-content a {
+    font-size: 14px;
+  }
+
+  footer .right-content .top,
+  footer .right-content .bot {
+    width: 90%;
+    gap: 8px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  footer span {
+    margin: 10px 0;
+  }
+
+  footer .copyright {
+    gap: 50px;
+    font-size: 14px;
+  }
+}
+
+/* Max-With 922px */
+@media screen and (max-width: 1080px) {
+  #hero-img img {
+    width: 120%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+}
